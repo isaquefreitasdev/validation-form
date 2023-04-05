@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+main {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  display: flex;
+  background-color: white;
+  flex-direction: column;
+  min-height: 329px;
+  min-width: 330px;
+  justify-content: center;
+  gap: 20px;
+  border-radius: 15px;
+}
+label {
+  font-size: 25px;
+  font-family: 'Montserrat';
+
+}
+
+#email,
+#password {
+  background: rgba(169, 79, 201, 0.5);
+  border-radius: 10px;
+  border-color: transparent;
+  width: 281px;
+  height: 35px;
+}
+#click {
+  width: 154px;
+  height: 32px;
+  background: #232f72;
+  box-shadow: 0px 4px 4px #000000;
+  border-radius: 30px;
+  border-color: transparent;
+  
+}
+#email,#password,label {
+  margin-left:15px ;
+}
+#click {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
+  color: white;
+  
+}
+.align_button{
+  display: flex;
+  justify-content: center;
+}
