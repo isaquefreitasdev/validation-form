@@ -39,16 +39,26 @@ label {
   border-color: transparent;
   
 }
-#email,#password,label {
+#email,#password,label,p {
   margin-left:15px ;
 }
 #click {
   font-family: 'Montserrat', sans-serif;
   font-size: 13px;
   color: white;
+  cursor: pointer;
   
 }
 .align_button{
   display: flex;
   justify-content: center;
+}
+button:disabled{
+  opacity: 0.7;
+}
+#password:disabled{
+  opacity: 0.7;
+}
+p{
+  font-family: 'Montserrat', sans-serif;
 }
