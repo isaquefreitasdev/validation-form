@@ -48,7 +48,7 @@ function Form() {
           {isTypingPassword && password.length < 6 && (<p>No minimo 6 digitos</p>) }
           <div className="align_button">
             <button
-              disabled={email === "" || password === "" || password.length < 6}
+              disabled={email === "" || password === "" || password.length < 6 || !validator.isEmail(email)}
               id="click"
             >
               Login
