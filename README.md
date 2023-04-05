@@ -12,11 +12,13 @@
 <li>Validator
 
 
-<h4>Conclusão</h4>
+<h4>Conclusão:</h4>
 <p>Não há todas as validações possíveis de um formulário, pois sempre dependerá da necessidade do seu projeto</p>
 
+
+
 <h5>Acesse a aplicação:</h5>
-<p></p>
+<p><a href='https://formvalidationr.netlify.app/'>Acessar</a></p>
 
 
 
